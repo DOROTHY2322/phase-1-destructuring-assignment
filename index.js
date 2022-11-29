@@ -33,7 +33,7 @@ const [moo,neigh,baa,oink,cluck] = farmAnimals.split(" ")
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 const [bessie, ,dolly, babe, little] = farmAnimals.split(" ")
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
-const [black_and_white, , black, pink, ] = farmAnimals.split(" ")
+const [blackAndWhite, , black, pink, ] = farmAnimals.split(" ")
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
@@ -45,8 +45,9 @@ const [ , , , , , indg, ] = colors
 // Objects
 
 // 7. Use destructuring to assign all variables using the keys as the variable names
-const {name, color, song, job, partner} = muppet
+const { Name,color, song, job, partner} = muppetName
+
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 const {song_2, song_4} = k_muppet.k_album.the_muppet_movie
-const {k_job, k_partner} = k_muppet
+const {k_job, k_partner} = ...k_muppet
